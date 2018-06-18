@@ -1,0 +1,37 @@
+OSError: [WinError 123] 文件名、目录名或卷标语法不正确。: 'E:/myScrapyProject/meiziphotos/Images/2864e7d49642be42da40a6b1971a1e064504302b.jpg' -> 'E:/myScrapyProject/meiziphotos/Images/勾人小妖精LULU小璐璐你看到我饥渴的眼神了吗/勾人小妖精LULU小璐璐: 你看到我饥渴的眼神了吗?（40）.jpg'
+2018-06-13 22:27:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://i.meizitu.net/2018/02/09c39.jpg> (referer: http://i.meizitu.net/2018/02/09c39.jpg)
+2018-06-13 22:27:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET http://i.meizitu.net/2018/02/09c39.jpg> referred in <http://i.meizitu.net/2018/02/09c39.jpg>
+2018-06-13 22:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.mzitu.com/118499/45> (referer: http://www.mzitu.com/118499)
+2018-06-13 22:27:47 [scrapy.core.scraper] ERROR: Error processing {'fileName': '勾人小妖精LULU小璐璐: 你看到我饥渴的眼神了吗?', 'titleName': '勾人小妖精LULU小璐璐: 你看到我饥渴的眼神了吗?（39）', 'imageLink': 'http://i.meizitu.net/2018/02/09c39.jpg'}
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python36-32\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\myScrapyProject\meiziphotos\meiziphotos\pipelines.py", line 33, in item_completed
+    os.renames(get_project_settings().get('IMAGES_STORE') + image_path[0], get_project_settings().get('IMAGES_STORE') + last + "/" + item["titleName"] + ".jpg")
+  File "D:\Programs\Python\Python36-32\lib\os.py", line 267, in renames
+    rename(old, new)
+OSError: [WinError 123] 文件名、目录名或卷标语法不正确。: 'E:/myScrapyProject/meiziphotos/Images/84d7ba3d2e56516d1d6f71a529ba86fb765dfbe3.jpg' -> 'E:/myScrapyProject/meiziphotos/Images/勾人小妖精LULU小璐璐你看到我饥渴的眼神了吗/勾人小妖精LULU小璐璐: 你看到我饥渴的眼神了吗?（39）.jpg'
+2018-06-13 22:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.mzitu.com/118499/44> (referer: http://www.mzitu.com/118499)
+2018-06-13 22:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://i.meizitu.net/2018/02/09c38.jpg> (referer: http://i.meizitu.net/2018/02/09c38.jpg)
+2018-06-13 22:27:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET http://i.meizitu.net/2018/02/09c38.jpg> referred in <http://i.meizitu.net/2018/02/09c38.jpg>
+2018-06-13 22:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://i.meizitu.net/2018/02/17b51.jpg> (referer: http://i.meizitu.net/2018/02/17b51.jpg)
+2018-06-13 22:27:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET http://i.meizitu.net/2018/02/17b51.jpg> referred in <http://i.meizitu.net/2018/02/17b51.jpg>
+2018-06-13 22:27:47 [scrapy.core.scraper] ERROR: Error processing {'fileName': '勾人小妖精LULU小璐璐: 你看到我饥渴的眼神了吗?', 'titleName': '勾人小妖精LULU小璐璐: 你看到我饥渴的眼神了吗?（38）', 'imageLink': 'http://i.meizitu.net/2018/02/09c38.jpg'}
+Traceback (most recent call last):
+  File "D:\Programs\Python\Python36-32\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\myScrapyProject\meiziphotos\meiziphotos\pipelines.py", line 33, in item_completed
+    os.renames(get_project_settings().get('IMAGES_STORE') + image_path[0], get_project_settings().get('IMAGES_STORE') + last + "/" + item["titleName"] + ".jpg")
+  File "D:\Programs\Python\Python36-32\lib\os.py", line 267, in renames
+    rename(old, new)
+OSError: [WinError 123] 文件名、目录名或卷标语法不正确。: 'E:/myScrapyProject/meiziphotos/Images/6f8291cb66397f286b95e67159d030bbb975d3b0.jpg' -> 'E:/myScrapyProject/meiziphotos/Images/勾人小妖精LULU小璐璐你看到我饥渴的眼神了吗/勾人小妖精LULU小璐璐: 你看到我饥渴的眼神了吗?（38）.jpg'
+2018-06-13 22:27:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.mzitu.com/120821/51>
+
+
+
+
+
+
+
+
+4370 
